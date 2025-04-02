@@ -1,7 +1,7 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
 
-$stripe_secret_key = "sk_test_51Qj325FQ6pwlpK5Qa6OT8E2C20UDyhps7E3uIkJwtmCCiqMOljXhJBzSBMCxOLkK9r98zpFBb30nmwxmIxN17Acn00ptOCTpXH";
+$stripe_secret_key = "";
 
 
 if (isset($_POST['product_names']) && isset($_POST['product_prices'])) {
